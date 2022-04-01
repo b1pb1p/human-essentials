@@ -42,7 +42,7 @@ gem "pg", "~> 1.2.3"
 gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
-gem "puma"
+gem "puma", ">= 4.3.12"
 gem "rails", "~> 6.1.4"
 gem "sass-rails"
 gem "sidekiq"
