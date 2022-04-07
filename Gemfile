@@ -51,7 +51,7 @@ gem "sprockets", "~> 4.0.2"
 gem "toastr-rails"
 gem "uglifier", ">= 1.3.0"
 gem 'webpacker', '~> 5.4'
-gem "yajl-ruby"
+gem "yajl-ruby", ">= 1.4.2"
 gem "recaptcha"
 gem "paper_trail" # for tracking history of InventoryItem
 
