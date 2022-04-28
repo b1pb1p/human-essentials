@@ -15,7 +15,7 @@ gem 'bootstrap-select-rails'
 gem "bugsnag"
 gem "chartkick"
 gem "cocoon"
-gem "devise", '>= 4.7.1'
+gem "devise", ">= 4.8.0"
 gem 'discard', '~> 1.2'
 gem "devise_invitable"
 gem "dotenv-rails"
@@ -43,14 +43,14 @@ gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
 gem "puma"
-gem "rails", "~> 6.1.4"
+gem "rails", "~> 6.1.5", ">= 6.1.5.1"
 gem "sass-rails"
 gem "sidekiq"
 gem "strong_migrations", "~> 0.7.7"
 gem "sprockets", "~> 4.0.2"
 gem "toastr-rails"
 gem "uglifier", ">= 1.3.0"
-gem 'webpacker', '~> 5.4'
+gem 'webpacker', '~> 5.4', '>= 5.4.0'
 gem "yajl-ruby"
 gem "recaptcha"
 gem "paper_trail" # for tracking history of InventoryItem
