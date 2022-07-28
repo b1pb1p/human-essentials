@@ -16,7 +16,7 @@ gem "bugsnag"
 gem "chartkick"
 gem "cocoon"
 gem "devise", '>= 4.7.1'
-gem 'discard', '~> 1.2'
+gem 'discard', '~> 1.2', '>= 1.2.0'
 gem "devise_invitable"
 gem "dotenv-rails"
 gem "filterrific"
@@ -43,7 +43,7 @@ gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
 gem "puma"
-gem "rails", "~> 6.1.4"
+gem "rails", "~> 6.1.6", ">= 6.1.6.1"
 gem "sass-rails"
 gem "sidekiq"
 gem "strong_migrations", "~> 0.7.7"
