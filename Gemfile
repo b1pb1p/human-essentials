@@ -15,7 +15,7 @@ gem 'bootstrap-select-rails'
 gem "bugsnag"
 gem "chartkick"
 gem "cocoon"
-gem "devise", '>= 4.7.1'
+gem "devise", ">= 4.8.0"
 gem 'discard', '~> 1.2'
 gem "devise_invitable"
 gem "dotenv-rails"
@@ -36,7 +36,7 @@ gem "jwt"
 gem "kaminari"
 gem "mini_racer", "~> 0.3.1"
 gem "momentjs-rails"
-gem "nokogiri", ">= 1.10.4"
+gem "nokogiri", ">= 1.13.9"
 gem "paperclip" # needed for legacy migrations
 gem "pg", "~> 1.2.3"
 gem "simple_form"
@@ -45,12 +45,12 @@ gem "prawn-rails"
 gem "puma"
 gem "rails", "~> 6.1.4"
 gem "sass-rails"
-gem "sidekiq"
+gem "sidekiq", ">= 6.0.0"
 gem "strong_migrations", "~> 0.7.7"
 gem "sprockets", "~> 4.0.2"
 gem "toastr-rails"
 gem "uglifier", ">= 1.3.0"
-gem 'webpacker', '~> 5.4'
+gem 'webpacker', '~> 5.4', '>= 5.4.0'
 gem "yajl-ruby"
 gem "recaptcha"
 gem "paper_trail" # for tracking history of InventoryItem
@@ -93,7 +93,7 @@ group :development do
   gem "capistrano-bundler"
   gem "capistrano3-puma"
   gem "capistrano-rails-console", require: false
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', '>= 2.0.0'
   gem 'foreman'
   gem "letter_opener"
   gem "listen", "~> 3.5.0"
@@ -104,7 +104,7 @@ group :development do
 end
 
 group :test do
-  gem "capybara", "~> 3.35"
+  gem "capybara", "~> 3.35", ">= 3.35.3"
   gem "capybara-screenshot"
   gem "launchy"
   gem 'magic_test'
@@ -112,7 +112,7 @@ group :test do
   gem "rspec-sidekiq"
   gem 'simplecov'
   gem 'shoulda-matchers', '~> 5.0'
-  gem 'webdrivers', '~> 4.6'
+  gem 'webdrivers', '~> 4.6', '>= 4.6.0'
   gem "webmock", "~> 3.14"
 end
 
