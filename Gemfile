@@ -47,7 +47,7 @@ gem "rails", "~> 6.1.4"
 gem "sass-rails"
 gem "sidekiq"
 gem "strong_migrations", "~> 0.7.7"
-gem "sprockets", "~> 4.0.2"
+gem "sprockets", "~> 4.2.0"
 gem "toastr-rails"
 gem "uglifier", ">= 1.3.0"
 gem 'webpacker', '~> 5.4'
