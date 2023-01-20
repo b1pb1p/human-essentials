@@ -15,8 +15,8 @@ gem 'bootstrap-select-rails'
 gem "bugsnag"
 gem "chartkick"
 gem "cocoon"
-gem "devise", '>= 4.7.1'
-gem 'discard', '~> 1.2'
+gem "devise", ">= 4.8.0"
+gem 'discard', '~> 1.2', '>= 1.2.0'
 gem "devise_invitable"
 gem "dotenv-rails"
 gem "filterrific"
@@ -27,7 +27,7 @@ gem "font-awesome-rails"
 gem "font-ionicons-rails"
 gem "fullcalendar-rails"
 gem "geocoder"
-gem "groupdate", "~> 5.2"
+gem "groupdate", "~> 5.2", ">= 5.2.2"
 gem "image_processing"
 gem "jbuilder"
 gem "jquery-rails"
@@ -43,14 +43,14 @@ gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
 gem "puma"
-gem "rails", "~> 6.1.4"
+gem "rails", "~> 6.1.7", ">= 6.1.7.1"
 gem "sass-rails"
 gem "sidekiq"
 gem "strong_migrations", "~> 0.7.7"
 gem "sprockets", "~> 4.0.2"
 gem "toastr-rails"
 gem "uglifier", ">= 1.3.0"
-gem 'webpacker', '~> 5.4'
+gem 'webpacker', '~> 5.4', '>= 5.4.0'
 gem "yajl-ruby"
 gem "recaptcha"
 gem "paper_trail" # for tracking history of InventoryItem
@@ -104,14 +104,14 @@ group :development do
 end
 
 group :test do
-  gem "capybara", "~> 3.35"
+  gem "capybara", "~> 3.35", ">= 3.35.3"
   gem "capybara-screenshot"
   gem "launchy"
   gem 'magic_test'
   gem "rails-controller-testing"
   gem "rspec-sidekiq"
   gem 'simplecov'
-  gem 'shoulda-matchers', '~> 5.0'
+  gem 'shoulda-matchers', '~> 5.0', '>= 5.0.0'
   gem 'webdrivers', '~> 4.6'
   gem "webmock", "~> 3.14"
 end
