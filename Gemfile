@@ -45,7 +45,7 @@ gem "prawn-rails"
 gem "puma"
 gem "rails", "~> 6.1.4"
 gem "sass-rails"
-gem "sidekiq"
+gem "sidekiq", ">= 7.0.8"
 gem "strong_migrations", "~> 0.7.7"
 gem "sprockets", "~> 4.0.2"
 gem "toastr-rails"
@@ -93,7 +93,7 @@ group :development do
   gem "capistrano-bundler"
   gem "capistrano3-puma"
   gem "capistrano-rails-console", require: false
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', '>= 2.0.0'
   gem 'foreman'
   gem "letter_opener"
   gem "listen", "~> 3.5.0"
