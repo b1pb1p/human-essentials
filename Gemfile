@@ -109,7 +109,7 @@ group :test do
   gem "launchy"
   gem 'magic_test'
   gem "rails-controller-testing"
-  gem "rspec-sidekiq"
+  gem "rspec-sidekiq", ">= 4.0.0"
   gem 'simplecov'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'webdrivers', '~> 4.6'
