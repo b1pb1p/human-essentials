@@ -42,7 +42,7 @@ gem "pg", "~> 1.2.3"
 gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
-gem "puma"
+gem "puma", ">= 5.6.7"
 gem "rails", "~> 6.1.4"
 gem "sass-rails"
 gem "sidekiq"
@@ -91,7 +91,7 @@ group :development do
   gem "capistrano-rails"
   gem "capistrano-rvm"
   gem "capistrano-bundler"
-  gem "capistrano3-puma"
+  gem "capistrano3-puma", ">= 5.0.0"
   gem "capistrano-rails-console", require: false
   gem 'capistrano-sidekiq'
   gem 'foreman'
