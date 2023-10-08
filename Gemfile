@@ -43,7 +43,7 @@ gem "simple_form"
 gem 'popper_js'
 gem "prawn-rails"
 gem "puma"
-gem "rails", "~> 6.1.4"
+gem "rails", "~> 7.1.0"
 gem "sass-rails"
 gem "sidekiq"
 gem "strong_migrations", "~> 0.7.7"
@@ -107,7 +107,7 @@ group :test do
   gem "capybara", "~> 3.35"
   gem "capybara-screenshot"
   gem "launchy"
-  gem 'magic_test'
+  gem 'magic_test', '>= 0.0.7'
   gem "rails-controller-testing"
   gem "rspec-sidekiq"
   gem 'simplecov'
