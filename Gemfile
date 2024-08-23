@@ -77,8 +77,8 @@ group :development, :test do
   gem "pry-nav"
   gem "rb-readline", "~> 0.5.3"
   gem "rspec-rails", "~> 5.0.1"
-  gem "rubocop"
-  gem "rubocop-rails", "~> 2.9.1"
+  gem "rubocop", ">= 1.2.0"
+  gem "rubocop-rails", "~> 2.10.0"
   gem "terminal-notifier-guard"
   gem "terminal-notifier"
 end
@@ -97,7 +97,7 @@ group :development do
   gem 'foreman'
   gem "letter_opener"
   gem "listen", "~> 3.5.0"
-  gem "rails-erd"
+  gem "rails-erd", ">= 1.7.0"
   gem "spring"
   gem "spring-watcher-listen"
   gem "web-console"
@@ -113,7 +113,7 @@ group :test do
   gem 'simplecov'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'webdrivers', '~> 4.6'
-  gem "webmock", "~> 3.14"
+  gem "webmock", "~> 3.15", ">= 3.15.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
